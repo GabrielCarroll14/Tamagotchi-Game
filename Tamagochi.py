@@ -1,10 +1,6 @@
 # Import the random module  
 import random
 
-# Create a random variable for the amount of danger
-dangerrating = random.randint(1,100)
-
-
 # Create the variables for the health stats of the tamagotchi
 happiness = 100
 energy = 100
@@ -19,14 +15,12 @@ cat = '''
 ( o.o )
  > ^ <
 '''
-
 # Create the rabbit tamagotchi image variable
 rabbit = '''
  (\\(\\ 
  ( -.-) 
  o_(")(")
 '''
-
 # Create the dog tamagotchi image varible
 dog = '''
  / \\__
@@ -61,22 +55,18 @@ if answer == 1:
     animal = rabbit
     print (animal)
     type = "Rabbit"
-    
 # Match up with cat
 elif answer == 2:
     print ("You have selected Cat! ")
     animal = cat
     print (animal)
     type = "Cat"
-  
 # Match up with dog  
 elif answer == 3:
     print ("You have selected Dog! ")
     animal = dog
     print (animal)
     type = "Dog"
-
-# Tamagotchi introduces itself
 
 # Print a message from the tamagotchi displaying the name, keytrait and type.
 print ("Hello, my name is " + name + ". I am a " + keytrait + " " + type + "! ")
@@ -117,8 +107,6 @@ for number in range(300000000):
     # Ask user for a dashboard setting. 1,2,3
     dash = int(input("Which would you like to choose? "))
     
-    # Happiness menu on dashboard
-    
     # Make it so if the users input is equal to 1 it will bring the user to the happiness menu
     if dash == 1:
         print (" ")
@@ -130,23 +118,18 @@ for number in range(300000000):
         print ("3. Feed. ")
         hapmenu = int(input("Select a option. "))
         
-        # The options in the happiness menu are stated below
-        
         # Option 1 where user has chosen to take animal for a walk
         if hapmenu == 1:
             print ("You have taken your " + type + " for a walk")
             ran = random.randint (1,3)
-            
             # Option when the walk went good
             if ran == 1:
                 happiness = happiness + 10
                 print ("Your walk went sucsessfully and now your " + type +" has a extra 10% happiness!")
-            
             # Option when the walk went good
             if ran == 2:
                 happiness = happiness + 10
                 print ("Your walk went sucsessfully and now your " + type + " has a extra 10% happiness!")
-            
             # Option when the walk went bad
             if ran == 3:
                 happiness = happiness - 40
@@ -157,19 +140,16 @@ for number in range(300000000):
         elif hapmenu == 2:
             print ("You have chosen to stroke your " + type + ". ")
             ran = random.randint (1,3)
-            
             # Option when the stroking went good
             if ran == 1:
                 happiness = happiness + 10
                 print ("")
                 print ("You stroked your " + type + " sucsessfully! extra 10% happiness!")
-            
             # Option when the stroking went good
             if ran == 2:
                 happiness = happiness + 10
                 print (" ")
                 print ("You stroked your " + type + " sucsessfully! extra 10% happiness!")
-            
             # Option when the stroking went bad
             if ran == 3:
                 happiness = happiness - 40
@@ -180,25 +160,21 @@ for number in range(300000000):
         elif hapmenu == 3:
             print ("You have chosen to feed your " + type + ". ")
             ran = random.randint (1,3)
-            
             # Option when feeding went good
             if ran == 1:
                 happiness = happiness + 10
                 print (" ")
                 print ("You fed your " + type + " sucsessfully! extra 10% happiness!")
-            
             # Option when feeding went good
             if ran == 2:
                 happiness = happiness + 10
                 print (" ")
                 print ("You fed your " + type + " sucsessfully! extra 10% happiness!")
-            
             # Option when the feeding went bad
             if ran == 3:
                 happiness = happiness - 40
                 print (" ")
                 print ("When you were feeding your " + type + ", they began to choke, you managed to do the hiemlich menouver, but your " + type + " is still traumatised.  -40 happiness! ")
-                
         else:
             pass
             
@@ -211,8 +187,8 @@ for number in range(300000000):
         print ("3. Feed. ")
         engmenu = int(input("Select a option. "))
         
+        # OPtion where user decides to give animal sweets
         if engmenu == 1:
-            
             print ("You have decided to give sweets to your " + type + ". ")
             print ("Your " + type + " fell very unwell because of the sweets you gave. -50 Everything!" )
             happiness = happiness - 50
@@ -223,25 +199,21 @@ for number in range(300000000):
         elif engmenu == 2:
             print ("You have chosen to take your " + type + " to the gym with you. ")
             ran = random.randint (1,3)
-            
             # Option when going to the gym went good
             if ran == 1:
                 energy = energy + 10
                 print (" ")
                 print ("When you took your " + type + " to the gym, they gained extra muscle and are now full of energy! + 10 Energy!")
-            
             # Option when going to the gym went good
             if ran == 2:
                 energy = energy + 10
                 print (" ")
                 print ("When you took your " + type + " to the gym, they gained extra muscle and are now full of energy! + 10 Energy!")
-            
             # Option when going the gym went bab
             if ran == 3:
                 energy = energy - 40
                 print (" ")
                 print ("When you were taking your " + type + " to the gym, one of the weights fell on them.  -40 energy! ")
-                
             else:
                 pass
                 
@@ -250,19 +222,16 @@ for number in range(300000000):
         elif engmenu == 3:
             print ("You have chosen to feed your " + type + ". ")
             ran = random.randint (1,3)
-            
             # Option when feeding went good
             if ran == 1:
                 energy = energy + 10
                 print (" ")
                 print ("You fed your " + type + " sucsessfully! extra 10% energy!")
-            
             # Option when feeding went good
             if ran == 2:
                 energy = energy + 10
                 print (" ")
                 print ("You fed your " + type + " sucsessfully! extra 10% energy!")
-            
             # Option when the feeding went bad
             if ran == 3:
                 energy = energy - 40
@@ -279,13 +248,11 @@ for number in range(300000000):
         
         # Option 1 where you give animal a wash
         if clemenu == 1:
-            
             # If animal cat rusult not good
             if type == "Cat":
                 print ("Cats dont like water! -30 Happiness but + 10 cleanliness!")
                 cleanliness = cleanliness + 10
                 happiness = happiness - 30
-                
             else:
                 cleanliness = cleanliness + 10
                 print ("You sucsessfully cleaned your " + type + "! + 10 cleanliness!")
@@ -294,49 +261,42 @@ for number in range(300000000):
         elif clemenu == 2:
             print ("You have chosen to comb your " + type + ". ")
             ran = random.randint (1,3)
-            
             # Option when combing went good
             if ran == 1:
                 cleanliness = cleanliness + 10
                 print (" ")
                 print ("You combed your " + type + " sucsessfully! extra 10% cleanliness!")
-            
             # Option when combing went good
             if ran == 2:
                 cleanliness = cleanliness + 10
                 print (" ")
                 print ("You combed your " + type + " sucsessfully! extra 10% cleanliness!")
-            
             # Option when the combing went bad
             if ran == 3:
                 happiness = happiness -40
                 cleanliness = cleanliness - 40
                 print (" ")
                 print ("When you were combing your " + type + ", there hair got tangled! -40 happiness and cleanliness! ")
-                
+        
         # Option 2 where you trim your animal
         elif clemenu == 3:
             print ("You have chosen to trim your " + type + ". ")
             ran = random.randint (1,3)
-            
             # Option when trimming went good
             if ran == 1:
                 cleanliness = cleanliness + 10
                 print (" ")
                 print ("You trimmed your " + type + " sucsessfully! extra 10% cleanliness!")
-            
             # Option when trimming went good
             if ran == 2:
                 cleanliness = cleanliness + 10
                 print (" ")
                 print ("You trimmed your " + type + " sucsessfully! extra 10% cleanliness!")
-            
             # Option when the trimming went bad
             if ran == 3:
                 cleanliness = cleanliness - 40
                 happiness = happiness - 40
                 print (" ")
                 print ("When you were trimming " + name + ", you got carried away and they became bald! Now they are always freezing! -40 happiness and cleanliness")
-                
     else:
-        pass   
+        print ("This is not a valid input please select a different option. ")  
