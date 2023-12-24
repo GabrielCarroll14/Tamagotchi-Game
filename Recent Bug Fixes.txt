@@ -1,0 +1,18 @@
+THIS IS VERSION 1.0.4
+
+Fixes new to this version:
+
+Big fixes in this release including, fixes with stats not changing in some options, giving errors after stats changing and improvements to the comments.
+
+
+
+Old fixes:
+
+V1.1.0.2:
+Just some light refinements in the code, like using the name of the correct animal selected instead of just "animal". Also some better comments to make it easier for someone to read the code.
+
+V1.1.0.2:
+I have a fixed all spelling mistakes from "Tamagochi" to "Tamagotchi"
+
+V1.1.0.1:
+I have brought a fix to the cleanliness menu, so if the users animal is a cat, it doesnt like the washing and is -30 happiness but + 10 cleanness.
