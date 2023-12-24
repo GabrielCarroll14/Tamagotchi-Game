@@ -5,7 +5,7 @@ import random
 dangerrating = random.randint(1,100)
 
 
-# Create the variables for the heath stats of the tamagotchi
+# Create the variables for the health stats of the tamagotchi
 happiness = 100
 energy = 100
 cleanliness = 100
