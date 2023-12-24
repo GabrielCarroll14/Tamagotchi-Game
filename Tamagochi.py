@@ -336,7 +336,7 @@ for number in range(300000000):
                 cleanliness = cleanliness - 40
                 happiness = happiness - 40
                 print (" ")
-                print ("When you were trimming your " + type + ", you got carried away and they became bald! Now they are always freezing! -40 happiness and cleanliness")
+                print ("When you were trimming " + name + ", you got carried away and they became bald! Now they are always freezing! -40 happiness and cleanliness")
                 
     else:
         pass   
