@@ -47,25 +47,38 @@ print ("3. Dog ")
 # Now ask the question of which one they would like to choose
 answer = int(input("Which would you like to choose? "))
 
-# Match up the answers for the animals they could choose
 
-# Match up with rabbit
+# If answer is equal to one select rabbit as the users pet
 if answer == 1:
+    # Give user a messgage showing that they have selected rabbit
     print ("You have selected Rabbit! ")
+    # Asign the rabbit image into the animal variable
     animal = rabbit
+    # Print a picture of the rabbit
     print (animal)
+    # Change the type of animal to rabbit
     type = "Rabbit"
-# Match up with cat
+
+# If answer is equal to two select cat as the users pet
 elif answer == 2:
+    # Give user a messgage showing that they have selected cat
     print ("You have selected Cat! ")
+    # Asign the cat image into the animal variable
     animal = cat
+    # Print a picture of the cat
     print (animal)
+    # Change the type of animal to cat
     type = "Cat"
-# Match up with dog  
+
+# If answer is equal to three select dog as the users pet  
 elif answer == 3:
+    # Give user a messgage showing that they have selected dog
     print ("You have selected Dog! ")
+    # Asign the dog image into the animal variable
     animal = dog
+    # Print a picture of the dog
     print (animal)
+    # Change the type of animal to dog
     type = "Dog"
 
 # Print a message from the tamagotchi displaying the name, keytrait and type.
@@ -75,10 +88,7 @@ print ("Hello, my name is " + name + ". I am a " + keytrait + " " + type + "! ")
 print ("Your job is to look after me! ")
 print ("You will have a dashboard of how I am feeling! ")
 
-
-# Show user dashboard menu
-
-# Create the loop
+# Create the dashboard loop
 for number in range(300000000):
     
     # Tamagotchi will die if happieness gets to low
