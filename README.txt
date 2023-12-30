@@ -1,72 +1,35 @@
-THIS GUIDE CONTAINS INFO ON HOW TO INSTALL THE GAME ON WINDOWS 10, 11 AND MAC OS. PLEASE REFER THE THE CORRECT AREA OF THE INSTRUCTIONS ON WHAT TO DO BASED ON YOUR OPERATING SYSTEM!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+README: How to Install the Game
 
-WINDOWS 11:
+This guide provides instructions for installing the game on Windows 10, 11, and macOS. Please follow the instructions specific to your operating system.
 
-Before running the script you must make sure that programming language Python is installed on your computer, if its not download it from this link: https://www.python.org/downloads/
+Windows 11:
 
-After this, you must find the folder you downloaded from me, this will mostlikely be in your downloads folder or wherever you saved it, this will be called "TamagotchiGame" and is the folder this file is in.
+Ensure Python is installed on your computer. If not, download it at: https://www.python.org/downloads/
+Locate the "TamagotchiGame" folder in your downloads or saved location.
+Right-click the folder, select "Open in Terminal."
+Copy and paste "python Tamagotchi.py" into the Terminal or Command Prompt.
+Press Enter, and the game should start.
 
-When you have found the folder, right click it with your mouse or trackpad then and select the option "Open in Terminal".
+For further assistance, check the support folder. Real-time help is available on the Discord server: https://discord.gg/A6NaPSHnCU
 
-Next, copy this piece of text "python Tamagotchi.py".
+Windows 10:
 
-Head into the Terminal or Command Prompt window (They are the same thing).
+Ensure Python is installed on your computer. If not, download it at: https://www.python.org/downloads/
+Locate the "TamagotchiGame" folder in your downloads or saved location.
+Left-click the folder, hold down Shift, and select "Copy as path."
+Open the Command Prompt by searching and selecting the first option.
+Type "cd " in the command prompt, right-click to paste the path, and press Enter.
+Copy and paste "python Tamagotchi.py" into the Command Prompt.
+Press Enter, and the game should start.
 
-When you are in Terminal or Command Prompt, right click, you should see the text you just copied apear on the screen. 
+For further assistance, check the support folder. Real-time help is available on the Discord server: https://discord.gg/A6NaPSHnCU
 
-Press the enter key.
+macOS:
 
-The game should begin.
+Ensure Python is installed on your computer. If not, download it at: https://www.python.org/downloads/
+Locate the "TamagotchiGame" folder in your downloads or saved location.
+Right-click the folder and select "New Terminal at Folder."
+Copy and paste "python Tamagotchi.py" into the Terminal.
+Press Enter, and the Tamagotchi game should start.
 
-
-Refer to the support folder for any further issues.
-
-Or if you want my help in real time, use this link to get to my discord server: https://discord.gg/A6NaPSHnCU
-
-
-WINDOWS 10:
-
-Before running the script you must make sure that programming language Python is installed on your computer, if its not download it from this link: https://www.python.org/downloads/
-
-After this, you must find the folder you downloaded from me, this will mostlikely be in your downloads folder or wherever you saved it, this will be called "TamagotchiGame" and is the folder this file is in.
-
-When you have found the folder, left click it once then while holding down shift, then select the option "Copy as path".
-
-Next go into your search menu and type in command prompt, choose the first option.
-
-When in the command promp window type "cd ".
-
-Then right click in the command prompt and some text should apear.
-
-Next, copy this piece of text "python Tamagotchi.py".
-
-Head into the Command Prompt window.
-
-When you are in the Command Prompt, right click, you should see the text you just copied apear on the screen. 
-
-Press the enter key.
-
-The game should begin.
-
-
-Refer to the support folder for any further issues.
-
-Or if you want my help in real time, use this link to get to my discord server: https://discord.gg/A6NaPSHnCU
-
-
-MAC OS:
-
-Before running the script you must make sure that programming language Python is installed on your computer, if its not download it from this link: https://www.python.org/downloads/
-
-After this, you must find the folder you downloaded from me, this will mostlikely be in your downloads folder or wherever you saved it, this will be called "TamagotchiGame" and is the folder this file is in.
-
-When you have found the folder, right click it with your mouse or trackpad then and select the option "New Terminal at Folder".
-
-Next, copy this piece of text "python Tamagotchi.py", paste it into the Terminal then press enter.
-
-The Tamagotchi game should begin.
-
-
-Refer to the support folder for any further issues.
-
-Or if you want my help in real time, use this link to get to my discord server: https://discord.gg/A6NaPSHnCU
+For further assistance, check the support folder. Real-time help is available on the Discord server: https://discord.gg/A6NaPSHnCU.
